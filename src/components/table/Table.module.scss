@@ -1,0 +1,29 @@
+@import "../../global.scss";
+
+.container {
+  max-width: 100%;
+
+  border: 1px solid $main-font-color;
+
+  table {
+    thead {
+      text-align: start;
+    }
+    td {
+      padding: 2px;
+
+      .filled-box {
+        width: 0.75rem;
+        height: 0.75rem;
+
+        background-color: #b9f73c;
+      }
+      .empty-box {
+        width: 0.75rem;
+        height: 0.75rem;
+
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+}

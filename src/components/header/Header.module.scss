@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+
+  width: calc(100% - 2rem);
+  height: 4rem;
+
+  h1 {
+    margin: 0;
+  }
+  h2 {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 1.75rem;
+  }
+
+  .logo-title {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .login {
+    padding: 0.5rem;
+  }
+}
